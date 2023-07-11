@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="convert-page">
+            <header>
+                <h1>Metric/Imperial Unit Conversion</h1>
+            </header>
+            <form id="enter-amount">
+                <label for="fill-in" ></label>
+                <input id="fill-in" type="number">
+                <button>Convert</button>
+            </form>
+        </div>
+        <div class="conversion-results">
+            <div class="brd-allign">
+                <h2 class="measure">Length (Meter/Feet)</h2>
+                <h3 id="length-measure" class="result">Input value above to get Conversion rate</h3>
+            </div>
+            <div class="brd-allign">
+                <h2 class="measure">Volume (Liters/Gallons)</h2>
+                <h3 id="volume-measure" class="result">Input value above to get Conversion Value</h3>
+            </div>
+            <div class="brd-allign">
+                <h2 class="measure">Mass (Kilograms/Pounds)</h2>
+                <h3 id="mass-measure" class="result">Input value above to get Conversion Value</h3>
+            </div>
+            
+        </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
